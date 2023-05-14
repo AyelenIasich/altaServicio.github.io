@@ -1,0 +1,943 @@
+
+<!DOCTYPE html>
+<html lang="sp">
+    <head>
+        <title>OPCION 4</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+    
+          <!--Material Icons-->
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <!--Fontawesone Icons-->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        />
+    
+    
+        <link rel="stylesheet" href='css/opcion1.css'/>
+    
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+          crossorigin="anonymous"
+        />
+      </head>
+
+  <body>
+ 
+
+    <main>
+      <div class="container-sm-fluid container-xl">
+        <div class="col-xl-10 form mx-auto div py-5 px-1 pb-md-4 " id="opcion4">
+          <header >
+            <div class="row m-0 px-3">
+              <div
+                class="col-12 col-md-4 pt-4 p-md-5 text-center d-flex logo justify-content-center  justify-content-lg-end "
+              >
+                <img src="img/prov.png" alt="logo de la provincia de TDF" />
+              </div>
+              <div class="col-12 col-md-8 ps-0 align-self-center">
+                <h1 class="h3 m-0 py-5 text-center">
+                  FORMULARIO DE ALTA DE LINEA DE TELÉFONO
+                </h1>
+    
+                <div class="row m-0 align-items-center">
+                  <div
+                    class="col-12 col-md-5 py-2 justify-content-md-center important d-flex align-self-center"
+                  >
+                    <div>Fecha de Vigencia: 08/05/2017</div>
+                  </div>
+                  <div
+                    class="col d-flex py-2 justify-content-md-center align-self-center important"
+                  >
+                    <div class="d-flex">REV: 02</div>
+                  </div>
+                  <div
+                    class="col d-flex py-2 justify-content-md-center align-items-center important"
+                  >
+                    <div>Pág. 1 de 1</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+    
+          <section class="section pt-3  px-3">
+            <div class="row m-0 pb-4 ">
+              <div class="col-12 col-md-11 text-md-end">
+                <label for="">REQUERIMIENTO DE SERVICIO Nº:</label>
+    
+                <p class="m-0 help">
+                  (Completar por la Dirección de Telecomunicaciones)
+                </p>
+              </div>
+              <div class="col-12 pt-3 p-md-0 col-md-1 pe-md-3">
+                <input type="number" disabled class="d-md-inline form-control" />
+              </div>
+            </div>
+          </section>
+    
+          </header>
+
+         
+         
+          <section class="mt-2 pb-5 px-3">
+          
+            <div class="row pt-4">
+              <div class="col">
+                <h2 class="py-3 pb-0 card-title text-center">
+                  Completar por el Solicitante
+                </h2>
+                <hr class="h" />
+                <div class="card-body">
+                  <div class="row m-0">
+                    <div class="col-12 py-2">
+                      <div class="d-flex justify-content-center">
+                        <p>
+                          Tipo de Servicio Requerido o Descripción Breve de la
+                          Necesidad:
+                          <span class="bold d-inline"
+                            >"NUEVA LÍNEA TELEFÓNICA"</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="col justify-content-start align-self-end d-flex pt-3"
+                    >
+                      <div class="form-group mb-2 requerido pe-0">
+                        <div class="row">
+                          <div class="col-auto">
+                            <label for="fecha1" class="form-label mb-2 pt-2"
+                              >Fecha:</label
+                            >
+                          </div>
+                          <div class="col">
+                            <input
+                              class="form-control"
+                              type="date"
+                              name="fecha1"
+                              id="fecha1"
+                              aria-describedby="helpId"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row m-0">
+              <div class="col-12 col-md-6">
+                <div class="form-group mt-2 mb-2 requerido pe-0">
+                  <label for="acceso" class="form-label mb-2 pt-2 pb-2"
+                    >Elegir nivel de acceso solicitado :</label
+                  >
+    
+                  <select
+                    class="form-select"
+                    id="acceso"
+                    aria-label="Default select example"
+                  >
+                    <option selected>Seleccionar acceso</option>
+                    <option value="1">Interurbano</option>
+                    <option value="2">Urbano</option>
+                    <option value="3">Interno</option>
+                    <option value="3">Entrante</option>
+                  </select>
+                </div>
+    
+                <div class="col-12 help-text"></div>
+              </div>
+    
+              <div class="col-12 col-md-6 help d-flex align-self-end pt-2 ps-md-0">
+                <p class="mb-md-2">
+                  <span class="bold">NOTA:</span> El Nivel de Acceso elegido,
+                  incluye a los niveles que tiene abajo
+                </p>
+              </div>
+    
+              <div class="div extra pt-3">
+                <span class="bold">Interurbano</span> puede llamar a otra ciudad,
+                celulares e Internos. <span class="bold">Urbano</span> puede llamar
+                a la misma ciudad e Internos. <span class="bold">Interno</span> solo
+                llama a Internos. <span class="bold">Entrante</span> solo recibe.
+              </div>
+            </div>
+    
+            <div class="row m-0 pb-4 pt-4">
+              <div class="col-12 col-md-auto py-3">
+                <div class="form-group requerido pe-0">
+                  <label for="creditos">
+                    Credito mensual solicitado para llamar fuera de la RPV (Se
+                    sugiere $150.-):</label
+                  >
+                  <div
+                    class="col pt-3 pt-md-0 d-flex d-none d-lg-block align-self-center"
+                  >
+                    <p class="help m-0">
+                      <span class="bold">NOTA:</span> Se puede modificar
+                      posteriormente si se comprueba que el valor no es suficiente
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-lg-2 py-lg-3 justify-content-start d-flex align-self-center form-item"
+              >
+                <span class="form-item-icon">$</span>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="creditos"
+                  placeholder=""
+                />
+              </div>
+              <div class="col pt-3 d-sm-block d-lg-none d-flex align-self-center">
+                <p class="help m-0">
+                  <span class="bold">NOTA:</span> Se puede modificar posteriormente
+                  si se comprueba que el valor no es suficiente
+                </p>
+              </div>
+            </div>
+            <div class="row m-0">
+              <div class="col-lg-12 col-xl-12">
+                <div class="form-group mt-2 mb-2 requerido pe-0">
+                  <label for="motivo" class="form-label mb-2 pt-2"
+                    >Motivo de la solicitud:
+                  </label>
+                  <textarea
+                    class="form-control"
+                    name="motivo"
+                    id="motivo"
+                    rows="5"
+                  ></textarea>
+    
+                  <div class="col-12 help-text"></div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="row m-0">
+              <div class="col">
+                <div class="form-group mt-2 mb-2 requerido pe-0">
+                  <label for="ministerio" class="form-label mb-2 pt-2"
+                    >Ministerio o Secretaria de Estado:</label
+                  >
+    
+                  <input
+                    type="text"
+                    id="ministerio"
+                    name="ministerio"
+                    aria-describedby="helpId"
+                    class="form-control"
+                  />
+    
+                  <div class="col-12 help-text"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row m-0">
+              <div class="col">
+                <div class="form-group mt-2 mb-2 requerido pe-0">
+                  <label for="dependencia" class="form-label mb-2 pt-2"
+                    >Dependencia:</label
+                  >
+    
+                  <input
+                    type="text"
+                    id="dependencia"
+                    name="dependencia"
+                    aria-describedby="helpId"
+                    class="form-control"
+                  />
+    
+                  <div class="col-12 help-text"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+        
+    
+    
+          <section class="mt-3 pb-5 pt-4 px-3  " id="instalacion">
+         
+                
+            
+            <div class="row">
+              <div class="col">
+                <h2 class="py-4 pb-0 card-title text-center">
+                  Domicilio de Instalación
+                </h2>
+                <hr class="h" />
+                <p class="text-center help">
+                  (<span class="bold">TELEFÓNICA</span> de Argentina, requiere
+                  completar <span class="bold">TODOS</span> los datos)
+                </p>
+                <div class="card-body">
+                  <div class="row m-0 pt-3">
+                    <div class="col-12 col-md-8 col-lg-5">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="calle" class="form-label mb-2 pt-2"
+                          >Calle:
+                        </label>
+    
+                        <input
+                          type="text"
+                          id="calle"
+                          name="fecha"
+                          class="form-control"
+                          aria-describedby="helpId"
+                          placeholder="Maipú "
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-2  col-lg-2">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="numeroCalle" class="form-label mb-2 pt-2"
+                          >Nº:</label
+                        >
+    
+                        <input
+                          type="number"
+                          id="numeroCalle"
+                          name="numeroCalle"
+                          class="form-control"
+                          aria-describedby="helpId"
+                          placeholder="78"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-2  col-lg-2">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="piso" class="form-label mb-2 pt-2"
+                          >Piso/Of:
+                        </label>
+    
+                        <input
+                          class="form-control"
+                          type="number"
+                          id="piso"
+                          name="piso"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-3">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="localidad" class="form-label mb-2 pt-2"
+                          >Localidad</label
+                        >
+    
+                        <select
+                          class="form-control"
+                          class="inputs-form"
+                          name="localidad"
+                          id="localidad"
+                          placeholder=""
+                        >
+                          <option selected>Seleccionar localidad</option>
+                          <option value="">Rio grande</option>
+                          <option value="">Interno RPV</option>
+                          <option value="">Solo Entrante</option>
+                        </select>
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row px-2 pt-5">
+                    <div class="col-12 h4 important">ENTRECALLES</div>
+    
+                    <div class="col-12 col-lg-6">
+                      <div class="form-group mt-2 pe-0">
+                        <label for="lateral1" class="form-label mb-2 pt-3"
+                          >Lateral (1):</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="lateral1"
+                          name="lateral1"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                      <div class="form-group mt-2 pe-0">
+                        <label for="lateral2" class="form-label mb-2 pt-3"
+                          >Lateral (2):</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="lateral2"
+                          name="lateral2"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row px-2">
+                    <div class="col-12 col-lg-6">
+                      <div class="form-group mt-2 pe-0">
+                        <label for="Opuesta" class="form-label mb-2 pt-3"
+                          >Opuesta:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="Opuesta"
+                          name="Opuesta"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-6 ">
+                      <div class="form-group mt-2 requerido pe-0">
+                        <label for="otraLinea" class="form-label mb-2 pt-3"
+                          >Si existe otra línea de teléfono en el lugar,
+                          indicarla:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="otraLinea"
+                          name="otraLinea"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row px-2 pt-2">
+                    <div class="col">
+                      <div class="form-group mt-1 mb-1 pe-0">
+                        <label for="referenciaCalle" class="form-label mb-2 pt-3">
+                          De no existir todas las calles, indicar alguna referencia
+                          útil:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="referenciaCalle"
+                          name="referenciaCalle"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row px-2 pt-4">
+                    <div class="col-12 col-md-12">
+                      <div class="form-group requerido mt-2 mb-2 pe-0">
+                        <label for="numero" class="form-label mb-2 pt-2">
+                          Contacto 1 en lugar:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="fecha"
+                          name="numero"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col-12 col-md-6">
+                      <div class="form-group requerido mt-2 mb-2 pe-0">
+                        <label for="numero" class="form-label mb-2 pt-2">
+                          Te. ó Cel.:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="fecha"
+                          name="numero"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col-12 col-sm-6  col-md-3">
+                      <div class="form-group requerido mt-2 mb-2 pe-0">
+                        <label for="numero" class="form-label mb-2 pt-2">
+                          Horario desde:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="time"
+                          id="fecha"
+                          name="numero"
+                          class="horarios"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col-12 col-sm-6 col-md-3">
+                      <div class="form-group requerido mt-2 mb-2 pe-0">
+                        <label for="numero" class="form-label mb-2 pt-2">
+                          hasta:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="time"
+                          id="fecha"
+                          name="numero"
+                          class="horarios"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row px-2 pt-4">
+                    <div class="col-4">
+                      <div class="form-group requerido mt-2 mb-2 pe-0">
+                        <label for="contacto2" class="form-label mb-2 pt-2">
+                          Contacto 2 en lugar:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="text"
+                          id="contacto2"
+                          name="contacto2"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col">
+                      <div class="form-group mt-2 mb-2 pe-0">
+                        <label for="contacto2phone" class="form-label mb-2 pt-2">
+                          Te. ó Cel.:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="number"
+                          id="contacto2phone"
+                          name="contacto2phone"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col">
+                      <div class="form-group requerido mt-2 mb-2 pe-0">
+                        <label for="contacto2desde" class="form-label mb-2 pt-2">
+                          Horario desde:</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="time"
+                          id="contacto2desde"
+                          name="contacto2desde"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+    
+                    <div class="col">
+                      <div class="form-group mt-2 mb-2 pe-0">
+                        <label for="contacto2hasta" class="form-label mb-2 pt-2">
+                          hasta</label
+                        >
+    
+                        <input
+                          class="form-control"
+                          type="time"
+                          id="contacto2hasta"
+                          name="contacto2hasta"
+                          aria-describedby="helpId"
+                        />
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="row pt-4 px-2">
+                    <div class="col">
+                      <span class="bold"> IMPORTANTE: </span>Completar los campos
+                      “Contacto1” y “Contacto2”con los datos de personas en el lugar
+                      de instalación para coordinar la misma con el proveedor.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+      
+          
+          <section class="mt-3 pb-5 px-3  ">
+     
+            <div class="row px-md-2  pt-4">
+              <div class="col">
+                <h2 class="pt-4 h3 card-title text-center">
+                  Solicitante Responsable del Servicio
+                </h2>
+                <hr class="h">
+                <div class="card-body mt-5">
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="nameSolicitante" class="form-label mb-2 pt-2"
+                        >Apellido y Nombre</label
+                      >
+                        <input                    
+                          type="text"
+                          id="nameSolicitante"
+                          name="nameSolicitante"
+                          aria-describedby="helpId"
+                          class="form-control"
+                        />
+                   
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-3 ">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="legajo" class="form-label mb-2 pt-2"
+                        >Legajo</label
+                      >
+                        <input
+                          type="text"
+                          id="legajo"
+                          name="legajo"
+                          aria-describedby="helpId"
+                          class="form-control"
+                        />
+                     
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-3">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="firma" class="form-label mb-2 pt-2"
+                        >Cargo</label
+                      >
+                        <input
+                          type="text"
+                          id="Cargo"
+                          name="Cargo"
+                          aria-describedby="helpId"
+                          class="form-control"
+                        />
+                       
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                    <div class="col-12  col-md-6 col-lg-3 ">
+                      <div class="form-group mt-2 mb-2 requerido pe-0">
+                        <label for="telefonoS" class="form-label mb-2 pt-2"
+                        >Teléfono</label
+                      >
+                        <input
+                          type="text"
+                          id="telefonoS"
+                          name="telefonoS"
+                          aria-describedby="helpId"
+                          class="form-control"
+                        />
+                 
+    
+                        <div class="col-12 help-text"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row px-md-2 pt-4 text-center">
+                    <div class="col-12 col-md-6">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="firma1"
+                        name="firma1"
+                      />
+                      <label for="firma1" class="form-label">Firma</label>
+                    </div>
+                    <div class="col-12 col-md-6 pt-3 pt-md-0">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="sello1"
+                        name="sello1"
+                      />
+                      <label for="sello1" class="form-label">Sello/Fecha</label>
+                    </div>
+                  </div>
+    
+                  <div class="row px-md-2 pt-4">
+                    <div class="col">
+                      <p>
+                        Completado, pase al
+                        <span class="bold">Superior Inmediato del Área</span> para
+                        su conocimiento y autorización.-
+                      </p>
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            
+            </div>
+          </section>
+    
+     
+    
+    
+          <section class="mt-3 pb-5 px-3  ">
+    
+            <div class="row px-md-2 pt-4">
+              <div class="col ">
+                <h2 class="pt-4 h3 card-title text-center">
+                  Completar por el Superior Inmediato del Área
+                </h2>
+                <hr class="h" />
+                <div class="card-body pt-3">
+                 <div class="row pt-3 text-center">
+                    <div class="col-12 col-md-6">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="firma1"
+                        name="firma1"
+                      />
+                      <label for="firma1" class="form-label">Firma</label>
+                    </div>
+                    <div class="col-12 col-md-6 pt-3 pt-md-0">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="sello1"
+                        name="sello1"
+                      />
+                      <label for="sello1" class="form-label">Sello/Fecha</label>
+                    </div>
+                  </div>
+    
+                  <div class="row pt-4">
+                    <div class="col">
+                      <p>
+                        Completado, pase a la
+                        <span class="bold"
+                          >Dirección General de Administración Financiera</span
+                        >
+                        para su intervención.-
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+         
+          <section class="mt-3 pb-5 px-3 ">
+    
+            <div class="row px-md-2  pt-4">
+              <div class="col">
+                <h2 class="pt-4 h3 card-title text-center">
+                  Completar por la Dirección General de Administración Financiera
+                </h2>
+                <hr class="h" />
+                <div class="card-body pt-3">
+                  <div class="row ">
+                    <div class="col">
+                      <p>
+                        El gasto que genere el servicio será imputado a la siguiente
+                        <span class="bold"> U.G.G.:</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row pt-3 text-center">
+                    <div class="col">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="firma2"
+                        name="firma2"
+                      />
+                      <label for="firma2" class="form-label">Firma</label>
+                    </div>
+                    <div class="col-12 col-md-6 pt-3 pt-md-0">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="sello2"
+                        name="sello2"
+                      />
+                      <label for="sello2" class="form-label">Sello/Fecha</label>
+                    </div>
+                  </div>
+    
+                  <div class="row pt-3">
+                    <div class="col">
+                      <p>
+                        Completado, pase a
+                        <span class="bold"
+                          >Sr. Ministro / Secretario de Estado
+                        </span>
+                        a los efectos de su consideración.-
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+         
+          <section class="mt-3  pb-3 px-3  ">
+        
+            <div class="row px-md-2 pt-4 ">
+              <div class="col">
+                <h2 class="pt-4 h3 card-title text-center">
+                  Completar por el Ministro/Secretario de Estado Interviniente
+                </h2>
+                <hr class="h" />
+                <div class="card-body">
+                  <div class="row px-md-2 pt-3">
+                    <div class="col-12">
+                      <p>
+                        El gasto que genere el servicio será imputado a la siguiente
+                        <span class="bold"> U.G.G.:</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row pt-3 text-center">
+                    <div class="col-12 col-md-6">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="firma3"
+                        name="firma3"
+                      />
+                      <label for="firma3" class="form-label">Firma</label>
+                    </div>
+                    <div class="col-12 col-md-6 pt-3 pt-md-0">
+                      <input
+                        type="text"
+                        disabled
+                        class="form-control pt-4"
+                        id="sello3"
+                        name="sello3"
+                      />
+                      <label for="sello3" class="form-label">Sello/Fecha</label>
+                    </div>
+                  </div>
+    
+                  <div class="row px-md-2 pt-3 ">
+                    <div class="col">
+                      <p>
+                        Con el autorizado de este
+                        <span class="bold">Ministro/ Secretario de Estado</span>,
+                        pase a la
+                        <span class="bold">Dirección de Telecomunicaciones</span>
+                        para continuar el trámite
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <div class="row py-5 px-md-3  justify-content-center align-items-center">
+            <div class="col-12 col-sm-6  mb-3 mb-md-0 d-flex">
+              <a  class="btn btn-outline-cancelar py-2">CANCELAR</a>
+            </div>
+            <div class="col-12 col-sm-6  d-flex">
+              <a type="submit" class="btn py-2 btn-guardar">CREAR SOLICITUD</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    
+
+
+
+   
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
